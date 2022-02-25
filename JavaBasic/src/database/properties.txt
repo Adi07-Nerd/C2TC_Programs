@@ -1,0 +1,4 @@
+driver_class_name=com.mysql.cj.jdbc.Driver
+db_url=jdbc:mysql://localhost:3306/c2tc
+db_username=root
+db_password=root

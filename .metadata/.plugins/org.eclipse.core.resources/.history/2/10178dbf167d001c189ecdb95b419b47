@@ -1,0 +1,50 @@
+package miscellaneousProgram;
+
+public class NestedLoopDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		for(int i=1;i<=10;i++)
+//		{
+//			for(int j=1;j<=10;j++)
+//			{
+//				System.out.println("Value of i "+i+" and value of j is "+j);
+//			}
+//			System.out.println("******************************");
+//		}
+//		
+		leftAngleTriangle();
+		System.out.println("Right Angle");
+		rightAngleTriangle();
+		
+	}
+	
+	public static void leftAngleTriangle()
+	{
+		for(int i=0;i<5;i++)
+		{
+			for(int j=0;j<i;j++)
+			{
+				System.out.print("@");
+			}
+			System.out.println();
+		}
+	}
+	
+	public static void rightAngleTriangle()
+	{
+		for(int i=0;i<4;i++)
+		{
+			//this will add spaces ahead
+			for(int j=0;j<=4-i;j++)
+				System.out.print("");
+			
+			//this is for the 
+			for(int j=0;j<=i;j++)
+				System.out.print("@");
+			
+			System.out.println();
+		}
+	}
+
+}

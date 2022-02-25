@@ -1,0 +1,9 @@
+package com.tns.framework;
+
+public abstract class PrimeAcc extends ShopAcc {
+
+	public PrimeAcc(int accNo, String accNm, float charges) {
+		super(accNo, accNm, charges);
+	}
+
+}

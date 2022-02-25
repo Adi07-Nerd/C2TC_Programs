@@ -1,0 +1,17 @@
+import com.tns.application.GSShopFactory;
+import com.tns.framework.NormalAcc;
+import com.tns.framework.PrimeAcc;
+import com.tns.framework.ShopFactory;
+
+public class EntryPointClass {
+
+	public static void main(String[] args) {
+		ShopFactory Adulteration=new GSShopFactory();
+		 NormalAcc user1 = Adulteration.getNewNormalAcc(12, "Kshitu", 250, 20);
+		 PrimeAcc user2 = Adulteration.getNewPrimeAcc(1, "Anay",799, true);
+		 
+		 System.out.println(user1.toString());
+		 System.out.println(user2.toString());
+	}
+
+}
