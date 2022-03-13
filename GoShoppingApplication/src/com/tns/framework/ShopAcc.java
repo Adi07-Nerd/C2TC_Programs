@@ -1,6 +1,6 @@
 package com.tns.framework;
 
-public abstract class ShopAcc {
+public class ShopAcc {
 	protected int accNo;           //changes private to protected
 	protected String accNm;         //changes private to protected
 	private float charges;
@@ -28,7 +28,10 @@ public abstract class ShopAcc {
 		return charges;
 	}
 
-	public abstract void bookProduct(float charges);
+	public void bookProduct(float charges)
+	{
+		System.out.println("Product booked and charges are: "+charges);
+	}
 	
 	public void items(float charges)
 	{

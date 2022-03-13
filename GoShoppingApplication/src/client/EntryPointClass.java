@@ -13,8 +13,10 @@ public class EntryPointClass {
 		 nobj = Adulteration.getNewNormalAcc(12, "Kshitu", 250, 20);
 		 pobj= Adulteration.getNewPrimeAcc(1, "Anay",799, true);
 		 
-		 System.out.println(nobj.toString());
-		 System.out.println(nobj.toString());
+		 nobj.bookProduct(299);
+		 pobj.bookProduct(399);
+//		 System.out.println(nobj.toString());
+//		 System.out.println(nobj.toString());
 	}
 
 }

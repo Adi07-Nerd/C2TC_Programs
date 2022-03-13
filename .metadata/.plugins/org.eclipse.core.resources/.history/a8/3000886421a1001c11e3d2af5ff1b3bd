@@ -16,7 +16,7 @@ public abstract class PrimeAcc extends ShopAcc {
 	
 	@Override
 	public void bookProduct(float charges) {
-		System.out.println("Dear Prime User, Your Charges are :"+charges);
+		System.out.println("Dear Prime User, Your Charges are :"+charges+" with Delivery Charges is :"+0);
 	}
 
 	@Override

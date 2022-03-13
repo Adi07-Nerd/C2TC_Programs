@@ -1,6 +1,0 @@
-package com.tns.framework;
-
-public abstract class ShopFactory {
-	abstract PrimeAcc getNewPrimeAcc();
-	abstract NormalAcc getNewNormalAcc();
-}

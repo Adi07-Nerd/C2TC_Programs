@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Iterator"/>
-<fullyQualifiedTypeName name="generics.GenericTest"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="generics.GenericMethodTest"/>
-<fullyQualifiedTypeName name="generics.GenericsConstructor"/>
-<fullyQualifiedTypeName name="generics.GenericInterfaceDemo"/>
-<fullyQualifiedTypeName name="lambdasExamples.HelloWorldGreeting"/>
 <fullyQualifiedTypeName name="lambdasExamples.MyLambda"/>
 <fullyQualifiedTypeName name="lambdasExamples.Greeting"/>
 <fullyQualifiedTypeName name="lambdasExamples.Greeter"/>
@@ -27,7 +20,6 @@
 <fullyQualifiedTypeName name="lambdasExamples.methodReferenceCollection.Example1"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.lang.Float"/>
 <fullyQualifiedTypeName name="lambdasExamples.Person"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
@@ -60,4 +52,12 @@
 <fullyQualifiedTypeName name="com.tns.application.GSNormalAcc"/>
 <fullyQualifiedTypeName name="com.tns.application.GSPrimeAcc"/>
 <fullyQualifiedTypeName name="com.tns.framework.PrimeAcc"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+<fullyQualifiedTypeName name="java.util.Properties"/>
+<fullyQualifiedTypeName name="org.hibernate.cfg.Environment"/>
 </qualifiedTypeNameHistroy>

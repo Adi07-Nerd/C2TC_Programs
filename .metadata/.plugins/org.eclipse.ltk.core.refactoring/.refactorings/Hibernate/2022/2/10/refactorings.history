@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Users.java&apos; to &apos;Hibernate/src/com.hibernate.crud&apos;&#x0D;&#x0A;- Original project: &apos;Hibernate&apos;&#x0D;&#x0A;- Destination element: &apos;Hibernate/src/com.hibernate.crud&apos;&#x0D;&#x0A;- Original element: &apos;Users.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;com.hibernate.crud" element1="/src&lt;{Users.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1646051463079" units="1" version="1.0"/>
+</session>
